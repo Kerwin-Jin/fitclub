@@ -1,0 +1,11 @@
+.reason{
+    display: flex;
+    padding: 0 2rem;
+}
+
+.reason>div:nth-child(1){
+    flex: 1;
+}
+.reason>div:nth-child(2){
+    flex: 1;
+}
