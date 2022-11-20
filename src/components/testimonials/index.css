@@ -1,0 +1,71 @@
+.testimonials-wrap{
+    display: flex;
+    padding: 0 2rem;
+    gap: 1rem;
+}
+
+.testimonials-wrap .left-t{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    flex: 1;
+}
+.testimonials-wrap .left-t>div:nth-of-type(1){
+    color: var(--orange);
+}
+.testimonials-wrap .left-t>div:nth-of-type(2){
+    font-size: 3rem;
+}
+.testimonials-wrap .left-t>div:nth-of-type(3){
+    font-size: 3rem;
+}
+.testimonials-wrap .left-t>div:nth-of-type(5)>span:nth-child(1){
+    color: var(--orange);
+}
+.testimonials-wrap .right-t{
+    position: relative;
+    flex: 1;
+}
+.testimonials-wrap .right-t>div:nth-of-type(1){
+    width: 17rem;
+    height: 17rem;
+    border: 1px solid var(--orange);
+    background-color: transparent;
+    position: absolute;
+    left: 6rem;
+    top: 1rem;
+}
+.testimonials-wrap .right-t>div:nth-of-type(2){
+    width: 17rem;
+    height: 17rem;
+    background: var(--planCard);
+    position: absolute;
+    left: 9rem;
+    top: 4rem;
+}
+.testimonials-wrap .right-t>div:nth-of-type(3){
+    position: absolute;
+    left: 8rem;
+    top:3rem;
+    width: 16rem;
+    height: 16rem;
+}
+
+.testimonials-wrap .right-t>div:nth-of-type(3)>img{
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+}
+.testimonials-wrap .right-t .arrow{
+    position: absolute;
+    bottom: -1rem;
+    display: flex;
+    gap: 1rem;
+}
+.testimonials-wrap .right-t .arrow>img{
+    width: 2rem;
+    height: 2rem;
+}
