@@ -1,0 +1,63 @@
+.plan-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.plan-wrap .header{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.plan-wrap .header span{
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.plan-wrap .header span:nth-last-of-type(2){
+    color: #fff;
+}
+.plan-wrap .card-wrap{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.plan-wrap .card-wrap .card{
+    padding: 2rem;
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+.plan-wrap .card-wrap .card .name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.plan-wrap .card-wrap .card .price{
+    font-size: 2.5rem;
+}
+.plan-wrap .card-wrap .card ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.plan-wrap .card-wrap .card svg{
+    fill: var(--orange);
+    width: 2rem;
+    height: 2rem;
+}
+.plan-wrap .card-wrap .card:nth-child(2){
+    background-color: var(--orange);
+    transform: scale(1.2);
+}
+.plan-wrap .card-wrap .card:nth-child(2) svg{
+    fill: #fff;
+}
+.plan-wrap .card-wrap .card:nth-child(2) button{
+    color: var(--orange);
+}
