@@ -1,0 +1,28 @@
+.footer-wrap{
+    margin: 6rem 0;
+}
+
+.footer-wrap .social-link{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.footer-wrap .social-link img{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.footer-wrap .social-link img:hover{
+    transform: scale(1.2);
+}
+.footer-wrap .footer-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.footer-wrap .footer-logo img{
+    width: 8rem;
+}

@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/footer";
 import Hero from "./components/hero/index";
 import Join from "./components/join";
 import Plan from "./components/plan";
@@ -14,6 +15,7 @@ function App() {
       <Plan />
       <Testimonials />
       <Join />
+      <Footer />
     </div>
   );
 }
