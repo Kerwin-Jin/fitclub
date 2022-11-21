@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./components/hero/index";
+import Join from "./components/join";
 import Plan from "./components/plan";
 import Programs from "./components/programs";
 import Reason from "./components/reason";
@@ -12,7 +13,7 @@ function App() {
       <Reason />
       <Plan />
       <Testimonials />
-      <div>lorem*30</div>
+      <Join />
     </div>
   );
 }
