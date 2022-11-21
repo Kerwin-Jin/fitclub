@@ -1,5 +1,6 @@
 .footer-wrap{
     margin: 6rem 0;
+    position: relative;
 }
 
 .footer-wrap .social-link{
@@ -25,4 +26,17 @@
 
 .footer-wrap .footer-logo img{
     width: 8rem;
+}
+.footer-blur-l{
+    width: 30rem;
+    height: 24rem;
+    background-color: rgba(255, 0, 0, 0.3);
+    right:2rem;
+    top:2rem
+}
+.footer-blur-r{
+    width: 30rem;
+    height: 24rem;
+    right: 44rem;
+    top: 10rem
 }

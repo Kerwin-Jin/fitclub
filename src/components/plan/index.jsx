@@ -3,6 +3,8 @@ import "./index.css";
 const Plan = () => {
   return (
     <div className="plan-wrap">
+      <div className="blur plan-blur-left"></div>
+      <div className="blur plan-blur-right"></div>
       <div className="header">
         <span className="stroke-text">ready to start</span>
         <span>your journey</span>

@@ -92,6 +92,12 @@
     width: 8rem;
     border: 2px solid var(--orange);
 }
+.hero-blur{
+    width: 20rem;
+    height: 20rem;
+    left: 12rem;
+    border-radius: 50%;
+}
 
 
 

@@ -2,6 +2,19 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    position: relative;
+}
+.plan-wrap .plan-blur-left{
+    width: 32rem;
+    height: 23rem;
+    top: 3rem;
+    left: 0;
+}
+.plan-wrap .plan-blur-right{
+    width: 32rem;
+    height: 23rem;
+    top: 3rem;
+    right: 0;
 }
 .plan-wrap .header{
     display: flex;
@@ -61,3 +74,4 @@
 .plan-wrap .card-wrap .card:nth-child(2) button{
     color: var(--orange);
 }
+

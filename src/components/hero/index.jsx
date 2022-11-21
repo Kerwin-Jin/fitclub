@@ -6,13 +6,12 @@ import Heart from "../../assets/heart.png";
 import HeroBack from "../../assets/hero_image_back.png";
 import HeroImg from "../../assets/hero_image.png";
 import CaloriesImg from "../../assets/calories.png";
-
 const Hero = (props) => {
   return (
     <div className="hero">
+      <div className="blur hero-blur"></div>
       <div className="left">
         <Header />
-
         {/* Hero Ad */}
         <div className="best-ad">
           <div></div>
