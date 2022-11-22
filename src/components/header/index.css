@@ -14,7 +14,30 @@
     display: flex;
     gap: 2rem;
 }
-.header-menu>li:hover{
+.header-menu .link:hover{
     cursor: pointer;
     color: var(--orange);
+}
+
+
+/* 以下代码为媒体查询 适配移动端 */
+@media screen and (max-width: 768px){
+    .hero .header .header-menu{
+        position: fixed;
+        right: 2rem;
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 2rem;
+        z-index: 99;
+    }
+    .hero .header>img:nth-child(2){
+        width: 1.5rem;
+        position: fixed;
+        right: 1.5rem;
+        height: 1.5rem;
+        z-index: 69;
+        background-color: var(--appColor);
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
 }

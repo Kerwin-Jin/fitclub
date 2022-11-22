@@ -2,7 +2,7 @@ import { plansData } from "../../data/plansData";
 import "./index.css";
 const Plan = () => {
   return (
-    <div className="plan-wrap">
+    <div className="plan-wrap" id="plans">
       <div className="blur plan-blur-left"></div>
       <div className="blur plan-blur-right"></div>
       <div className="header">
