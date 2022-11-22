@@ -6,6 +6,7 @@ import Heart from "../../assets/heart.png";
 import HeroBack from "../../assets/hero_image_back.png";
 import HeroImg from "../../assets/hero_image.png";
 import CaloriesImg from "../../assets/calories.png";
+import { motion } from "framer-motion";
 const Hero = (props) => {
   return (
     <div className="hero">
@@ -14,7 +15,14 @@ const Hero = (props) => {
         <Header />
         {/* Hero Ad */}
         <div className="best-ad">
-          <div></div>
+          <motion.div
+            initial={{ left: "238px" }}
+            whileInView={{ left: "8px" }}
+            transition={{
+              type: "tween",
+              duration: 3,
+            }}
+          ></motion.div>
           <span>The Besh Fitness Club in The Town</span>
         </div>
 
@@ -61,22 +69,42 @@ const Hero = (props) => {
       {/* Right Part */}
       <div className="right">
         <button className="btn">Join Now</button>
-        <div className="heart-rate">
+
+        <motion.div
+          initial={{ right: "-1rem" }}
+          whileInView={{ right: "4rem" }}
+          transition={{
+            type: "spring",
+            duration: 3,
+          }}
+          className="heart-rate"
+        >
           <img src={Heart} alt="" />
           <span>Heart Rate</span>
           <span>116 bpm</span>
-        </div>
+        </motion.div>
 
-        <img src={HeroBack} alt="" className="hero-back" />
+        <motion.img
+          src={HeroBack}
+          className="hero-back"
+          initial={{ right: "16rem" }}
+          whileInView={{ right: "20rem" }}
+          transition={{ type: "tween", duration: "2" }}
+        />
         <img src={HeroImg} alt="" className="hero-image" />
 
-        <div className="calories">
+        <motion.div
+          className="calories"
+          initial={{ right: "37rem" }}
+          whileInView={{ right: "28rem" }}
+          transition={{ type: "tween", duration: 2 }}
+        >
           <img src={CaloriesImg} alt="" />
           <div>
             <span>Calories Bured</span>
             <span>201 kcal</span>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
