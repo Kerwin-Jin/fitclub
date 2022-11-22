@@ -70,3 +70,24 @@
     width: 2rem;
     height: 2rem;
 }
+
+/* 以下代码为媒体查询 适配移动端 */
+@media screen and (max-width: 768px){
+    .testimonials-wrap{
+        flex-direction: column;
+    }
+
+    .testimonials-wrap .right-t>div:nth-child(1){
+        left: 0rem;
+    }
+    .testimonials-wrap .right-t>div:nth-child(2){
+        left: 3rem;
+    }
+    .testimonials-wrap .right-t>div:nth-child(3){
+        left: 2rem;
+    }
+    .testimonials-wrap .right-t .arrow{
+        bottom: -25rem;
+        margin: 0 8rem;
+    }
+}

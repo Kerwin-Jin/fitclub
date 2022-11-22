@@ -54,3 +54,22 @@
     background-color: var(--orange);
     color: #fff;
 }
+
+/* 以下代码为媒体查询 适配移动端 */
+@media screen and (max-width: 768px){
+    .join-wrap{
+        flex-direction: column;
+        margin-top: 22rem;
+    }
+
+    .join-wrap .left-j{
+        font-size: 1.3rem;
+    }
+    .join-wrap .right-j>div{
+        flex-direction: column;
+    }
+    .join-wrap .right-j>div>input{
+        padding: 1rem;
+        flex-direction: column;
+    }
+}

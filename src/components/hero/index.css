@@ -99,9 +99,6 @@
     border-radius: 50%;
 }
 
-
-
-
 .hero .right{
     flex: 1;
     position: relative;
@@ -178,4 +175,70 @@
 .hero .right>.calories>div span:nth-child(2){
     color: var(#fff);
     font-size: 1.5rem;
-} 
+}
+
+/* 以下代码为媒体查询 适配移动端 */
+@media screen and (max-width: 768px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-blur{
+        width: 5rem;
+        height: 5rem;
+        left: 12rem;
+        top: 10rem;
+        filter: blur(60px);
+        border-radius: 50%;
+    }
+    .hero .left .best-ad{
+        font-size: small;
+        align-self: center;
+        margin-top: 0;
+        transform: scale(0.8);
+    }
+
+    .hero .left .hero-text{
+        font-size: xx-large;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero .left .hero-text>div:nth-of-type(3){
+        text-align: center;
+        font-size: small;
+    }
+    .hero-buttons{
+        justify-content: space-around;
+    }
+    .hero .right{
+        background-color: transparent;
+    }
+
+    .hero .right .heart-rate{
+        left: 2rem;
+        top: 0;
+    }
+    .hero .right .calories{
+        position: relative;
+        left: 10rem;
+        top: 4rem;
+    }
+    .hero .right .calories>img{
+        width: 2rem;
+    }
+    .hero .right .calories>div span:nth-of-type(2){
+        font-size: 1rem;
+    }
+    .hero .right .hero-image{
+        position: relative;
+        width: 15rem;
+        left: 9rem;
+        top: 4rem;
+        align-self: center;
+    }
+    .hero .right .hero-back{
+        width: 15rem;
+        left: 2rem;
+        top: 0rem;
+    }
+}

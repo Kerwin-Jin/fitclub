@@ -40,3 +40,11 @@
     right: 44rem;
     top: 10rem
 }
+
+/* 以下代码为媒体查询 适配移动端 */
+@media screen and (max-width: 768px){
+    .footer-wrap{
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+}

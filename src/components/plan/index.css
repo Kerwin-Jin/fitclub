@@ -75,3 +75,24 @@
     color: var(--orange);
 }
 
+/* 以下代码为媒体查询 适配移动端 */
+@media screen and (max-width: 768px){
+
+    .plan-wrap{
+        padding: 0 2rem;
+    }
+    .plan-wrap .header{
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1rem;
+    }
+
+    .plan-wrap .card-wrap{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .plan-wrap .card-wrap .card:nth-child(2){
+        transform: none;
+    }
+}
+

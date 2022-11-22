@@ -54,3 +54,18 @@
 .programs-categories>.category>.join-now>img{
     width: 1rem;
 }
+
+/* 以下代码为媒体查询 适配移动端 */
+@media screen and (max-width: 768px) {
+    .programs .programs-header{
+        flex-direction: column;
+        gap: 2rem;
+        font-size: xx-large;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .programs .programs-categories{
+        flex-direction: column;
+    }
+}

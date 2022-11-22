@@ -8,6 +8,7 @@ import HeroImg from "../../assets/hero_image.png";
 import CaloriesImg from "../../assets/calories.png";
 import { motion } from "framer-motion";
 const Hero = (props) => {
+  const modile = window.innerWidth < 768 ? true : false;
   return (
     <div className="hero">
       <div className="blur hero-blur"></div>
@@ -16,7 +17,7 @@ const Hero = (props) => {
         {/* Hero Ad */}
         <div className="best-ad">
           <motion.div
-            initial={{ left: "238px" }}
+            initial={{ left: !modile ? "238px" : "165px" }}
             whileInView={{ left: "8px" }}
             transition={{
               type: "tween",
@@ -29,7 +30,7 @@ const Hero = (props) => {
         {/* Hero Heading */}
         <div className="hero-text">
           <div>
-            <span className="stroke-text">Sharp</span>
+            <span className="stroke-text">Sharp </span>
             <span>Your</span>
           </div>
           <div>

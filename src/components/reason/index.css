@@ -85,3 +85,20 @@
     gap: 20px;
 }
 
+/* 以下代码为媒体查询 适配移动端 */
+@media screen and (max-width: 768px){
+    .reason{
+        flex-direction: column;
+    }
+    .reason .left{
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+
+    .reason .right .partners{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
