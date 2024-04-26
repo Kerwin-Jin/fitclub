@@ -8,12 +8,12 @@ const Footer = () => {
     <div className="footer-wrap">
       <hr />
       <div className="social-link">
-        <img src={Github} alt="" srcset="" />
-        <img src={Instagram} alt="" srcset="" />
-        <img src={Linkedin} alt="" srcset="" />
+        <img src={Github} alt="logo"  />
+        <img src={Instagram} alt="logo"  />
+        <img src={Linkedin} alt="logo"  />
       </div>
       <div className="footer-logo">
-        <img src={Logo} alt="" srcset="" />
+        <img src={Logo} alt="logo"  />
       </div>
       <div className="blur footer-blur-l"></div>
       <div className="blur footer-blur-r"></div>

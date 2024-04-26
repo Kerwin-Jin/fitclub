@@ -19,7 +19,7 @@ const Plan = () => {
               <div className="price">${plan.price}</div>
               <ul>
                 {plan.features.map((feature) => {
-                  return <li>{feature}</li>;
+                  return <li key={feature}>{feature}</li>;
                 })}
               </ul>
               <div>See more benefits -&gt; </div>

@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import NumberCounter from "number-counter";
 
 const Hero = (props) => {
-  const modile = window.innerWidth < 768 ? true : false;
+  const mobile = window.innerWidth < 768 ? true : false;
   return (
     <div className="hero" id="home">
       <div className="blur hero-blur"></div>
@@ -19,7 +19,7 @@ const Hero = (props) => {
         {/* Hero Ad */}
         <div className="best-ad">
           <motion.div
-            initial={{ left: !modile ? "238px" : "165px" }}
+            initial={{ left: !mobile ? "238px" : "165px" }}
             whileInView={{ left: "8px" }}
             transition={{
               type: "tween",
