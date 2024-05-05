@@ -24,6 +24,9 @@
     align-items: center;
     justify-content: flex-start;
     position: relative;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 4px;
 }
 .hero .left .best-ad>span{
     z-index: 2;
@@ -32,7 +35,7 @@
 .hero .left .best-ad>div{
     position: absolute;
     background-color: var(--orange);
-    width: 5.4rem;
+    width: 4.8rem;
     height: 80%;
     left: 8px;
     border-radius: 3rem;

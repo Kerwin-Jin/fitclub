@@ -27,7 +27,7 @@ const Header = (props) => {
             span={true}
             className={"link"}
           >
-            Home
+            首页
           </Link>
           <Link
             onClick={closeMenu}
@@ -36,7 +36,7 @@ const Header = (props) => {
             span={true}
             className={"link"}
           >
-            Programs
+            课程
           </Link>
           <Link
             onClick={closeMenu}
@@ -45,7 +45,7 @@ const Header = (props) => {
             span={true}
             className={"link"}
           >
-            Why us
+            优势
           </Link>
           <Link
             onClick={closeMenu}
@@ -54,7 +54,7 @@ const Header = (props) => {
             span={true}
             className={"link"}
           >
-            Plans
+            价格
           </Link>
           <Link
             onClick={closeMenu}
@@ -63,7 +63,7 @@ const Header = (props) => {
             span={true}
             className={"link"}
           >
-            Testimonials
+            评价
           </Link>
         </ul>
       )}
